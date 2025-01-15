@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Event</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="font-size: 40px; margin-left: 40px; color: brown">
+        Event
+        <ul>
+          <li style="font-size: 30px; color: black">On Click Event</li>
+        </ul>
+      </h1>
+    </div>
+
+    <div class="container">
+      <button id="btn1">
+        Click Me
+      </button>
+      <button ondblclick="console.log('Button was Click');alert('Hello')">
+        Click Me 2 times
+      </button>
+    </div>
+
+    <div class="">
+      <h1>
+        Mouse Hover Event
+      </h1>
+      <div onmouseenter="console.log('mouse is enter')" style="width:200px; height: 100px;
+      background-color: rgb(141, 135, 135); display: flex;
+      justify-content: center;
+      align-items: center;">Mouse Hover</div>
+    </div>
+    <div class="">
+      <h1>
+      Event Listener
+      </h1>
+      <button id="btn2"> Click Btn2 </button>
+    </div>
+     
+
+    <!-- we create a toggle button and add event the light modd and dark mood  -->
+    <div class="">
+      <h1>
+     Create a toggle button and change the mood in light and dark 
+      </h1>
+      <button id="moodchange">Change mood</button>
+    </div>
+
+    <script src="events.js"></script>
+  </body>
+</html>
